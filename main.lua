@@ -13,8 +13,6 @@ local unlockAll   = config.unlockall
 local owner       = config.owner
 local platform    = tostring(config.platform):upper()
 
-
-
 --// Optional Notification //--
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "🍌 BANANALYZE",
